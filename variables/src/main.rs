@@ -36,4 +36,12 @@ fn main() {
         let mut s2 = String::from("Hello");
         // slice
         let str = "Kamal"; // slice katkun endha allocation static fl stack
+
+        ///////////////// Compound Data Types //////////////////////
+        /// we have arrays 
+        let my_arr = [1, 2, 3, 4, 5, 6];
+        let my_ar: [i32] = [1, 2, 3, 4, 5, 6];
+        /// we also have tuples
+        let my_tuple = ("kamal", 'c', 25);
+        let my_tuple1: (String, char, i32) = ("kamal", 'c', 25);
 }
